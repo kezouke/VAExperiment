@@ -31,6 +31,7 @@ This report summarizes the results of an experiment comparing the performance of
 ### Reconstruction Error Distribution
 
 ![KL model]("plots/Reconstruction Error Distribution (KL) - Iteration 35.png")
+
 ![WS model]("plots/Reconstruction Error Distribution (Wasserstein) - Iteration 35.png")
 
 - **KL Divergence:**
@@ -53,6 +54,7 @@ This report summarizes the results of an experiment comparing the performance of
 ### Reconstruction Quality
 
 ![Reconstruction KL]("plots/VAE Reconstructions with KL in Loss F._plot image - Iteration 35.png")
+
 ![Reconstruction WS]("plots/VAE Reconstructions with Wasserstein in Loss F._2_plot image - Iteration 35.png")
 
 - **KL Divergence:**
@@ -64,6 +66,7 @@ This report summarizes the results of an experiment comparing the performance of
 ### Interpolation
 
 ![Interpolatation KL]("plots/VAE with KL interpolation_1_plot image - Iteration 35.png")
+
 ![Interpolatation WS]("plots/VAE with Wasserstein interpolation_plot image - Iteration 35.png")
 
 - **KL Divergence:**
@@ -75,6 +78,7 @@ This report summarizes the results of an experiment comparing the performance of
 ### Latent Space Visualization (t-SNE)
 
 ![tSNE KL]("plots/VAE with WS Latent Space Visualization (TSNE)_1_plot image - Iteration 35.png")
+
 ![tSNE WS]("plots/VAE with KL Latent Space Visualization (TSNE)_plot image - Iteration 35.png")
 
 1. **KL Divergence Model:**
