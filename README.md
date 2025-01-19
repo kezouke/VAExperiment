@@ -100,7 +100,7 @@ This repository contains experiments with Variational Autoencoders (VAEs) using 
 
 ## Results
 
-Please read `report.mmd` to get insights from VAExperiment :) 
+Please read `report.md` to get insights from VAExperiment :) 
 
 ## Future Work
 
