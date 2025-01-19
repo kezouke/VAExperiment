@@ -30,9 +30,9 @@ This report summarizes the results of an experiment comparing the performance of
 
 ### Reconstruction Error Distribution
 
-![KL model]("plots/Reconstruction Error Distribution (KL) - Iteration 35.png")
+![KL model](plots/error_kl.png)
 
-![WS model]("plots/Reconstruction Error Distribution (Wasserstein) - Iteration 35.png")
+![WS model](plots/error_ws.png)
 
 - **KL Divergence:**
   - The reconstruction error distribution shows a wide range of errors, with a peak around 30. This suggests that while the model can reconstruct most images reasonably well, there is a significant variance in reconstruction quality.
@@ -42,8 +42,8 @@ This report summarizes the results of an experiment comparing the performance of
 
 ### Latent Distributions
 
-![Latent KL]("plots/VAE Latent Distributions with KL in Loss F._plot image - Iteration 35.png")
-![Latent WS]("plots/VAE Latent Distributions with Wassersten in Loss F._1_plot image - Iteration 35.png")
+![Latent KL](plots/latent_dist_kl.png)
+![Latent WS](plots/latent_dist_ws.png)
 
 - **KL Divergence:**
   - The latent distributions are well-centered around zero and have a Gaussian-like shape, as expected when using KL divergence to match a standard Gaussian prior.
@@ -53,9 +53,9 @@ This report summarizes the results of an experiment comparing the performance of
 
 ### Reconstruction Quality
 
-![Reconstruction KL]("plots/VAE Reconstructions with KL in Loss F._plot image - Iteration 35.png")
+![Reconstruction KL](plots/reconstruction_kl.png)
 
-![Reconstruction WS]("plots/VAE Reconstructions with Wasserstein in Loss F._2_plot image - Iteration 35.png")
+![Reconstruction WS](plots/reconstruction_ws_2.png)
 
 - **KL Divergence:**
   - The reconstructions are generally good, with clear digits, but some reconstructions show blurriness or artifacts.
@@ -65,9 +65,9 @@ This report summarizes the results of an experiment comparing the performance of
 
 ### Interpolation
 
-![Interpolatation KL]("plots/VAE with KL interpolation_1_plot image - Iteration 35.png")
+![Interpolatation KL](plots/interpol_kl.png)
 
-![Interpolatation WS]("plots/VAE with Wasserstein interpolation_plot image - Iteration 35.png")
+![Interpolatation WS](plots/interpol_ws_1.png)
 
 - **KL Divergence:**
   - The interpolation between digits is smooth, with gradual transitions between classes.
@@ -77,9 +77,9 @@ This report summarizes the results of an experiment comparing the performance of
 
 ### Latent Space Visualization (t-SNE)
 
-![tSNE KL]("plots/VAE with WS Latent Space Visualization (TSNE)_1_plot image - Iteration 35.png")
+![tSNE KL](plots/tsne_kl.png)
 
-![tSNE WS]("plots/VAE with KL Latent Space Visualization (TSNE)_plot image - Iteration 35.png")
+![tSNE WS](plots/tsne_ws_2.png)
 
 1. **KL Divergence Model:**
    - **Latent Space Visualization:**
