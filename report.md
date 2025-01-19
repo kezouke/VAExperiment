@@ -32,7 +32,11 @@ This report summarizes the results of an experiment comparing the performance of
 
 ![KL model](plots/error_kl.png)
 
+$$KL$$
+
 ![WS model](plots/error_ws.png)
+
+$$WS$$
 
 - **KL Divergence:**
   - The reconstruction error distribution shows a wide range of errors, with a peak around 30. This suggests that while the model can reconstruct most images reasonably well, there is a significant variance in reconstruction quality.
